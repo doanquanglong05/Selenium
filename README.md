@@ -110,19 +110,19 @@ Dự án xây dựng 6 test case kiểm thử tự động cho các chức năng
 
 Website SauceDemo được sử dụng làm đối tượng kiểm thử cho các chức năng đăng nhập, xem sản phẩm và quản lý giỏ hàng.
 
-![Giao diện đăng nhập SauceDemo](screenshots/01-saucedemo-login.png)
+![Giao diện đăng nhập SauceDemo](01-saucedemo-login.png)
 
 ### 8.2. Cấu trúc dự án
 
 Dự án được tổ chức thành các thư mục riêng biệt để quản lý mã nguồn kiểm thử, thư viện và hình ảnh minh chứng.
 
-![Cấu trúc dự án Selenium](screenshots/02-project-structure.png)
+![Cấu trúc dự án Selenium](02-project-structure.png)
 
 ### 8.3. Mã nguồn Selenium
 
 Mã nguồn được viết bằng Python, sử dụng Selenium WebDriver để thao tác trên trình duyệt và các câu lệnh assert để kiểm tra kết quả.
 
-![Mã nguồn Selenium](screenshots/03-selenium-source-code.png)
+![Mã nguồn Selenium](03-selenium-source-code.png)
 
 ### 8.4. TC01 - Đăng nhập thành công
 
@@ -138,7 +138,7 @@ Mã nguồn được viết bằng Python, sử dụng Selenium WebDriver để 
 
 **Kết quả thực tế:** Test case PASSED.
 
-![TC01 - Đăng nhập thành công](screenshots/TC01-login-success.png)
+![TC01 - Đăng nhập thành công](TC01-login-success.png)
 
 ### 8.5. TC02 - Đăng nhập thất bại
 
@@ -154,7 +154,7 @@ Mã nguồn được viết bằng Python, sử dụng Selenium WebDriver để 
 
 **Kết quả thực tế:** Test case PASSED.
 
-![TC02 - Đăng nhập thất bại](screenshots/TC02-login-failure.png)
+![TC02 - Đăng nhập thất bại](TC02-login-failure.png)
 
 ### 8.6. TC03 - Hiển thị danh sách sản phẩm
 
@@ -169,7 +169,7 @@ Mã nguồn được viết bằng Python, sử dụng Selenium WebDriver để 
 
 **Kết quả thực tế:** Test case PASSED.
 
-![TC03 - Danh sách sản phẩm](screenshots/TC03-product-list.png)
+![TC03 - Danh sách sản phẩm](TC03-product-list.png)
 
 ### 8.7. TC04 - Thêm sản phẩm vào giỏ hàng
 
@@ -185,7 +185,7 @@ Mã nguồn được viết bằng Python, sử dụng Selenium WebDriver để 
 
 **Kết quả thực tế:** Test case PASSED.
 
-![TC04 - Thêm sản phẩm vào giỏ hàng](screenshots/TC04-add-to-cart.png)
+![TC04 - Thêm sản phẩm vào giỏ hàng](TC04-add-to-cart.png)
 
 ### 8.8. TC05 - Xóa sản phẩm khỏi giỏ hàng
 
@@ -202,7 +202,7 @@ Mã nguồn được viết bằng Python, sử dụng Selenium WebDriver để 
 
 **Kết quả thực tế:** Test case PASSED.
 
-![TC05 - Xóa sản phẩm khỏi giỏ hàng](screenshots/TC05-remove-from-cart.png)
+![TC05 - Xóa sản phẩm khỏi giỏ hàng](TC05-remove-from-cart.png)
 
 ### 8.9. TC06 - Đăng xuất
 
@@ -218,7 +218,7 @@ Mã nguồn được viết bằng Python, sử dụng Selenium WebDriver để 
 
 **Kết quả thực tế:** Test case PASSED.
 
-![TC06 - Đăng xuất](screenshots/TC06-logout.png)
+![TC06 - Đăng xuất](TC06-logout.png)
 
 ## 9. Kết quả kiểm thử tổng hợp
 
@@ -230,7 +230,7 @@ Kết quả chạy thực tế ghi nhận 6 test case đều thành công.
 |---:|---:|---:|
 | 6 | 6 | 0 |
 
-![Kết quả chạy Selenium và Pytest](screenshots/10-test-results.png)
+![Kết quả chạy Selenium và Pytest](10-test-results.png)
 
 Kết quả trên cho thấy các chức năng được kiểm thử đều đáp ứng những điều kiện mong đợi đã được xác định trong mã nguồn.
 
